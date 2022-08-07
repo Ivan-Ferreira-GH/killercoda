@@ -9,6 +9,6 @@ cd ~ && [ ! -d 'istio-fast-track' ] && git clone https://github.com/Ivan-Ferreir
 Verifica que el directorio `istio-fast-track` haya sido creado utilzando el comando `ls`
 
 ```plain
-ls -la
+ls -lt
 ```{{exec}}
 
