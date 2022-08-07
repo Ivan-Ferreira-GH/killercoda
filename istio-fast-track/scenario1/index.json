@@ -2,9 +2,6 @@
   "title": "Escenario 1",
   "description": "Configuración del Gateway Istio",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
         "title": "Clonar repositorio Git",
@@ -19,7 +16,7 @@
       "text": "finish.md"
     },
     "intro": {
-      "text": "init/init.md",
+      "text": "intro.md",
       "background": "init/background.sh",
       "foreground": "init/foreground.sh"
     },
