@@ -12,4 +12,4 @@ Verifica que el directorio `istio-fast-track` haya sido creado utilzando el coma
 ls -lt
 ```{{exec}}
 
-Para continuar presiona el botón NEXT
+Para continuar presiona el botón **NEXT**
