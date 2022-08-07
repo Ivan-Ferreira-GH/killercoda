@@ -11,7 +11,7 @@ El archivo `hello-world-deployment.yml` creará:
 Para aplicar la configuración ejecuta el siguiente comando:
 
 ```plain
-kubectl apply -f ~/istio-fast-track/istiol-lab1/hello-world-deployment.yml
+kubectl apply -f ~/istio-fast-track/istio-lab1/hello-world-deployment.yml
 ```{{exec}}
 
 Verifica que el pod ha sido desplegado y observa la cantidad de imágenes que existen en el pod a través de la columna `READY`.
