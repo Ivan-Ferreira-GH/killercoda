@@ -7,7 +7,7 @@ more ~/istio-fast-track/istio-lab1/yml/istio-gateway.yml
 ```{{exec}}
 
 El archivo `istio-gateway.yml` creará:
-* *Un Ingress Gateway* que
+* Un *Ingress Gateway* que
 * Aceptará peticiones hacia el puerto 80
 
 El `'*'` en `hosts:` permitirá la conexión a través de la dirección IP en lugar de utilizar la resolución de nombres DNS.
