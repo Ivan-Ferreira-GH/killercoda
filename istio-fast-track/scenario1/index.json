@@ -17,8 +17,7 @@
     ],
     "finish": {
       "text": "finish.md"
-    }
-  },
+    },
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes"
   }
