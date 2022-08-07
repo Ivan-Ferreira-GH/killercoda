@@ -21,7 +21,7 @@ kubectl apply -f ~/istio-fast-track/istio-lab1/yml/istio-virtualservice-hello-wo
 Verifica que el servicio ha sido creado con el siguiente comando:
 
 ```plain
-k get vc -o wide
+k get vs
 ```{{exec}}
 
 Si intentas conectarte a la aplicación utilizando `curl` a la dirección IP del clúster, ahora sí recibirás respuesta de la aplicación.
