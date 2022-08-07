@@ -9,12 +9,10 @@
       {
         "title": "Clonar repositorio Git",
         "text": "step1/text.md",
-        "verify": "step1/verify.sh"
       },
       {
         "title": "Habilitar la inyección automática del Sidecar de Istio",
         "text": "step2/text.md",
-        "verify": "step2/verify.sh"
       }
     ],
     "finish": {
