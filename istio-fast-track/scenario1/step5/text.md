@@ -7,7 +7,7 @@ more ~/istio-fast-track/istio-lab1/yml/istio-virtualservice-hello-world.yml
 ```{{exec}}
 
 El archivo `istio-virtualservice-hello-world.yml` creará:
-* Un *Virtual Service* que
+* Un *Virtual Service* que...
 * Se vinculará con el gateway Istio
 * Aceptará peticiones http
 * Ruteará las peticiones a la aplicación web hello-world
