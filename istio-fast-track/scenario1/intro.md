@@ -3,4 +3,4 @@
 En este escenario configurarás Istio como gateway para una aplicación web.
 
 El diagrama de arquitectura es el siguiente:
-![Istio Gateway]([istio-gateway.png?raw=true](https://github.com/Ivan-Ferreira-GH/killercoda/raw/main/istio-fast-track/scenario1/istio-gateway.png?raw=true) "Istio Gateway")
+![Istio Gateway]([istio-gateway.png?raw=true]([https://github.com/Ivan-Ferreira-GH/killercoda/raw/main/istio-fast-track/scenario1/istio-gateway.png](https://github.com/Ivan-Ferreira-GH/killercoda/blob/4ba70087230da294650ae7ab9f857e2a2b5f9492/istio-fast-track/scenario1/istio-gateway.png?raw=true) "Istio Gateway")
