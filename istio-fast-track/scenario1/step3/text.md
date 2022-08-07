@@ -1,6 +1,6 @@
 ## Desplegar la aplicación web
 
-Utiliza el explorador de Killercoda para visualizar el archivo `istio-fast-track/istiol-lab1/hello-world-deployment.yml` y observa el contenido del archivo.
+Utiliza el editor de Killercoda para visualizar el archivo `istio-fast-track/istiol-lab1/hello-world-deployment.yml` y observa el contenido del archivo.
 
 El archivo `hello-world-deployment.yml` creará:
 * Un pod hello-world que expondrá el puerto 3000
