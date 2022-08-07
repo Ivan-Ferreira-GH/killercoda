@@ -3,3 +3,4 @@
 En este escenario configurarás Istio como gateway para una aplicación web.
 
 El diagrama de arquitectura es el siguiente:
+![Istio Gateway](istio-gateway.png?raw=true "Istio Gateway")
