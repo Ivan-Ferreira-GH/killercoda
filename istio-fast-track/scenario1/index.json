@@ -8,11 +8,11 @@
     "steps": [
       {
         "title": "Clonar repositorio Git",
-        "text": "step1/text.md",
+        "text": "step1/text.md"
       },
       {
         "title": "Habilitar la inyección automática del Sidecar de Istio",
-        "text": "step2/text.md",
+        "text": "step2/text.md"
       }
     ],
     "finish": {
