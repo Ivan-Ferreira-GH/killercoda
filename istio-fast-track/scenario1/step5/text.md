@@ -24,17 +24,6 @@ Verifica que el servicio ha sido creado con el siguiente comando:
 k get svc -o wide
 ```{{exec}}
 
-Observa los detalles del gateway con el siguiente comando:
-
-```plain
-k describe gateway
-```{{exec}}
-
-Obtén la dirección IP del clúster con el siguiente comando:
-```plain
-kubectl get svc -l istio=ingressgateway -n istio-system
-```{{exec}}
-
 Si intentas conectarte a la aplicación utilizando `curl` a la dirección IP del clúster, ahora sí recibirás respuesta de la aplicación.
 ```plain
 CLUSTER_IP=$(kubectl get svc -l istio=ingressgateway -n istio-system -o jsonpath='{.items[0].spec.clusterIP}')
