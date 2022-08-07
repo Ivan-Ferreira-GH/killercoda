@@ -10,4 +10,4 @@ En este escenario:
 * Configurarás un gateway Istio
 * Configurarás un VirtualService de Istio
 
-Presiona el botón START para comenzar
+Presiona el botón **START** para comenzar
