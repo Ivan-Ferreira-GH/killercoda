@@ -5,3 +5,5 @@ Ejecuta el siguiente comando para habilitar la inyección automática del Sideca
 ```plain
 kubectl label namespace default istio-injection=enabled --overwrite
 ```{{exec}}
+
+Para continuar presiona el botón NEXT
