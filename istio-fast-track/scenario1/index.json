@@ -11,7 +11,10 @@
       },
       {
         "text": "step3/text.md"
-      }
+      },
+      {
+        "text": "step4/text.md"
+      }  
     ],
     "finish": {
       "text": "finish.md"
