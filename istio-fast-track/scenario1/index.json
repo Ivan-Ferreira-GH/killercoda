@@ -1,6 +1,6 @@
 {
   "title": "Escenario 1",
-  "description": "Configuración de Istio",
+  "description": "Configuración del Gateway Istio",
   "details": {
     "intro": {
       "text": "intro.md"
@@ -17,7 +17,8 @@
     ],
     "finish": {
       "text": "finish.md"
-    },
+    }
+  },
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes"
   }
