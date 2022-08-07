@@ -51,7 +51,7 @@ Observa el resultado de la cabecera de la respuesta indicando server: `istio-env
 < content-length: 11
 < content-type: text/plain; charset=utf-8
 < x-envoy-upstream-service-time: 0
-< **server: istio-envoy**
+< server: istio-envoy
 < 
 * Connection #0 to host 10.110.184.32 left intact
 Hello World
