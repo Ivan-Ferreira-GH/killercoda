@@ -1,0 +1,40 @@
+{
+  "title": "Escenario 1",
+  "description": "Observabilidad con Istio",
+  "details": {
+    "steps": [
+      {
+        "text": "step1/text.md"
+      },
+      {
+        "text": "step2/text.md"
+      },
+      {
+        "text": "step3/text.md"
+      },
+      {
+        "text": "step4/text.md"
+      },
+      {
+        "text": "step5/text.md"
+      }     
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "intro": {
+      "text": "intro.md",
+      "background": "init/background.sh",
+      "foreground": "init/foreground.sh"
+    },
+    "assets": {
+      "host01": [
+        {"file": "wait-background.sh", "target": "/ks", "chmod": "+x"},
+        {"file": "demo.yaml", "target": "/tmp", "chmod": "+x"}
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
