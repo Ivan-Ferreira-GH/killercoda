@@ -24,7 +24,7 @@ Verifica el despliegue del gateway con el siguiente comando:
 k get gateway
 ```{{exec}}
 
-Observar los detalles del gateway con el siguiente comando:
+Observa los detalles del gateway con el siguiente comando:
 ```plain
 k describe gateway
 ```{{exec}}
@@ -34,7 +34,24 @@ Observa el contenido del archivo `~/istio-fast-track/istio-lab2/yml/web-frontend
 more ~/istio-fast-track/istio-lab2/yml/web-frontend.yml
 ```{{exec}}
 
-Despliega el pod, service y virtualservice para web-frontend con el siguiente comando:
+Despliega el Pod, Service y VirtualService para *web-frontend* con el siguiente comando:
 ```plain
 kubectl apply -f ~/istio-fast-track/istio-lab2/yml/web-frontend.yml
+```{{exec}}
+
+Observa el contenido del archivo `~/istio-fast-track/istio-lab2/yml/customers.yml`
+Identifica el recurso *DestionationRule*. Este recurso establece el ruteo hacia la aplicación *customers* versión 1. 
+
+```plain
+more ~/istio-fast-track/istio-lab2/yml/customers.yml
+```{{exec}}
+
+Despliega el Pod, Service, VirtualService y DestinationRule para web-frontend con el siguiente comando:
+```plain
+kubectl apply -f ~/istio-fast-track/istio-lab2/yml/customers.yml
+```{{exec}}
+
+Verfica el despliegue de las aplicaciones con el siguiente comando:
+```plain
+k get pods
 ```{{exec}}
