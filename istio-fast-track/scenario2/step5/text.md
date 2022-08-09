@@ -55,3 +55,5 @@ Verfica el despliegue de las aplicaciones con el siguiente comando:
 ```plain
 k get pods
 ```{{exec}}
+
+Para continuar presiona el botón **NEXT**
