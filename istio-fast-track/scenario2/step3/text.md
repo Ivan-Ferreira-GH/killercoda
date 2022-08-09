@@ -17,28 +17,28 @@ k get po -l app=prometheus -n istio-system
 
 Verifica que el *Service* de Prometheus ha sido desplegado en el *namespace* `istio-system` con el siguiente comando:
 ```plain
-k get svc -l app=prometheus -n istio-system
+k get svc prometheus -n istio-system
 ```{{exec}}
 
 Verifica que el *ServiceAccount* de Prometheus ha sido desplegado en el *namespace* `istio-system` con el siguiente comando:
 
 ```plain
-k get serviceaccount -l app=prometheus -n istio-system
+k get serviceaccount prometheus -n istio-system
 ```{{exec}}
 
 Verifica que el *ConfigMap* de Prometheus ha sido desplegado en el *namespace* `istio-system` con el siguiente comando:
 ```plain
-k get configmap -l app=prometheus -n istio-system
+k get configmap prometheus -n istio-system
 ```{{exec}}
 
 Verifica que el *ClusterRole* de Prometheus ha sido desplegado en el *namespace* `istio-system` con el siguiente comando:
 ```plain
-k get configmap -l app=prometheus -n istio-system
+k get clusterrole prometheus -n istio-system
 ```{{exec}}
 
 Verifica que el *ClusterRoleBinding* de Prometheus ha sido desplegado en el *namespace* `istio-system` con el siguiente comando:
 ```plain
-k get configmap -l app=prometheus -n istio-system
+k get clusterrolemapping prometheus -n istio-system
 ```{{exec}}
 
 Para continuar presiona el botón **NEXT**
