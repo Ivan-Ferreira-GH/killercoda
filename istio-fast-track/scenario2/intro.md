@@ -3,7 +3,7 @@
 En este escenario explorarás las características de observabilidad de Istio a través de Grafana, Zipkin y Kiali.
 
 La arquitectura para este escenario puede observarse en la siguiente imagen:
-![Customers Wep Application](URL "Customers Web Application")
+![Customers Wep Application](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/web-frontend.png?raw=true "Customers Web Application")
 
 
 En este escenario:
