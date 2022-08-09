@@ -38,7 +38,7 @@ k get clusterrole prometheus -n istio-system
 
 Verifica que el *ClusterRoleBinding* de Prometheus ha sido desplegado en el *namespace* `istio-system` con el siguiente comando:
 ```plain
-k get clusterrolemapping prometheus -n istio-system
+k get clusterrolebinding prometheus -n istio-system
 ```{{exec}}
 
 Para continuar presiona el botón **NEXT**
