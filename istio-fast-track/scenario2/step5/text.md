@@ -24,11 +24,14 @@ Verifica el despliegue del gateway con el siguiente comando:
 k get gateway
 ```{{exec}}
 
-
-
-Observa el contenido del archivo `~/istio-fast-track/istio-lab2/yml/webfrontend.yml`
+Observar los detalles del gateway con el siguiente comando:
 ```plain
-more ~/istio-fast-track/istio-lab2/yml/webfrontend.yml
+k describe gateway
+```{{exec}}
+
+Observa el contenido del archivo `~/istio-fast-track/istio-lab2/yml/web-frontend.yml`
+```plain
+more ~/istio-fast-track/istio-lab2/yml/web-frontend.yml
 ```{{exec}}
 
 Despliega el pod, service y virtualservice para web-frontend con el siguiente comando:
