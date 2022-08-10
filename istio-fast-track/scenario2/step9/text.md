@@ -39,11 +39,11 @@ Para el ejemplo anterior, el puerto es 30470.
   
 Del menú desplegable que se encuentra en la parte superior derecha de la ventana, selecciona *Traffic / Ports*
   
-![Traffic / Ports](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step6/TrafficPorts.png?raw=true "Traffic / Ports")
+![Traffic / Ports](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step9/TrafficPorts.png?raw=true "Traffic / Ports")
   
 En la ventana *Traffic Port Accessor*, ingresa el número de puerto en el campo *Custom Ports* y presiona el botón **ACCESS**.
   
-![Traffic Port Accessor](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step6/TrafficPortsAccessor.png?raw=true "Traffic Port Accessor")
-La ventana principal del tablero de grafana se abrirá en una nueva pestaña.
+![Traffic Port Accessor](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step9/TrafficPortsAccessorZipkin.png?raw=true "Traffic Port Accessor")
+La ventana principal de Zipkin se abrirá en una nueva pestaña.
   
 Para continuar presiona el botón **NEXT**
