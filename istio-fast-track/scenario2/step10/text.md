@@ -1,6 +1,6 @@
 ## Instalar Zipkin
 
-El paquete de instalación de Istio proporciona archivos `yml` para la instalación de las herramientas de observabilidad en el directorio `istio-*.*.*/samples/addons`.
+El paquete de instalación de Istio proporciona archivos `yml` para la instalación de las herramientas de observabilidad en el directorio `istio-*.*.*/samples/addons/extras`.
 
 Para instalar Zipkin ejecuta el siguiente comando:
 
