@@ -20,7 +20,13 @@
       }, 
       {
         "text": "step6/text.md"
-      }       
+      },
+      {
+        "text": "step7/text.md"
+      },
+      {
+        "text": "step8/text.md"
+      }
     ],
     "finish": {
       "text": "finish.md"
