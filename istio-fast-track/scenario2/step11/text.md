@@ -1,4 +1,4 @@
-## Instalar Zipkin
+## Instalar Kiali
 
 El paquete de instalación de Istio proporciona archivos `yml` para la instalación de las herramientas de observabilidad en el directorio `istio-*.*.*/samples/addons`.
 
