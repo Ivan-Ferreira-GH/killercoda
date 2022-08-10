@@ -1,4 +1,4 @@
-## Visualizando métricas en Grafana
+## Visualizando métricas de Web Frontend en Grafana
 
 Obtén la dirección IP del *Ingress* con el siguiente comando:
 
