@@ -33,6 +33,7 @@ k get svc zipkin -n istio-system
 ```{{exec}}
 
 Deberás obtener una salida similar a la siguiente:
+
 ```
 k get svc zipkin -n istio-system
 NAME     TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
@@ -46,7 +47,7 @@ Del menú desplegable que se encuentra en la parte superior derecha de la ventan
   
 En la ventana *Traffic Port Accessor*, ingresa el número de puerto en el campo *Custom Ports* y presiona el botón **ACCESS**.
 
-![Traffic Port Accessor]https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step10/TrafficPortsAccessorZipkin.png?raw=true "Traffic Port Accessor")
+![Traffic Port Accessor](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step10/TrafficPortsAccessorZipkin.png?raw=true "Traffic Port Accessor")
   
 La ventana principal de Zipkin se abrirá en una nueva pestaña.
   
