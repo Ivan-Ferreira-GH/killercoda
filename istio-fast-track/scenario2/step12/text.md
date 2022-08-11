@@ -34,21 +34,21 @@ Expande el panel *General*. Notarás una caída de la tasa de éxito en *Client 
 
 Observa como este retardo se visualiza en Zipkin.
 En la pantalla principal de Zipkin, presiona sobre el signo **+** del panel superior, selecciona **ServiceName** y luego *web-frontend.default* de la lista desplegable.
-Luego agrega **minDuration** y establece **5s**.
 Presiona el botón **RUN QUERY**.
 
-![Zipkin Query](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/ZipkinQuery.png?raw=true "Zipkin Query")
+Las trazas con error se mostrarán en color rojo.
 
-Haz clic sobre alguna de las trazas y presiona el botón **SHOW** que se encuentra a la derecha para abrir la página de detalles.
-En la página de detalles podrás notar que la petición duró 5 segundos en total.
+![Zipkin Query](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step12/ZipkinErrorTrace.png?raw=true "Zipkin Query")
 
-![Zipkin Trace](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/IstioZipkinTrace.png?raw=true "Zipkin Trace")
+Observa cómo se visualizan los errores en Kiali.
+En la pantalla principal de Kiali, selecciona *Graph* del panel derecho.
+En el panel superior, presiona sobre el campo *Namespace* y selecciona *Default* de la lista desplegable.
 
-La traza se compone de cuatro *spans*. Selecciona el tercer *span* que representa la petición hecha desde el servicio **web-frontend** al servicio **customers**.
+Notarás que el servicio *web-frontend* tiene un borde de color rojo.
 
-En el panel lateral derecho, notarás que en la etiqueta **response_flags** está establecida a **DI**. 
-DI significa **Delay Injection** e indica que la petición ha sido retardada.
+![Kiali](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step12/Kiali.png?raw=true "Kiali")
 
-![Zipkin DI](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/ZipkinDI.png?raw=true "Zipkin DI")
+Si presionas sobre el servicio *web-fronend* y observas el panel lateral derecho, encontrarás los detalles de las peticiones HTTP.
+El gráfico muestra el porcentaje de éxitos y fallos. Ambos números deben encontrarse alrededor de 50%, que corresponde con el valor establecido en el *VirtualService*.
 
 Para continuar presiona el botón **NEXT**
