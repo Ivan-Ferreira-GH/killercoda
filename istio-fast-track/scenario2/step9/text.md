@@ -31,10 +31,12 @@ Deberás obtener una salida similar a la siguiente:
 
 ```
 k get svc zipkin -n istio-system
+NAME     TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+zipkin   NodePort   10.110.156.28   <none>        9411:30470/TCP   9s
 ```
 
 Identifica el puerto en el que se ha expuesto el servicio de Zipkin hacia el exterior. 
-Para hacerlo, observa el número de puerto que se encuentra luego de 3000: en la columna PORT(S).
+Para hacerlo, observa el número de puerto que se encuentra luego de 9411: en la columna PORT(S).
 Para el ejemplo anterior, el puerto es 30470.
   
 Del menú desplegable que se encuentra en la parte superior derecha de la ventana, selecciona *Traffic / Ports*
