@@ -19,5 +19,5 @@ Para el campo *Service* selecciona *web-frontend.default.svc.cluster.local* de l
 
 Expande el panel *Client Workloads*. Notarás una duración incrementada en el gráfico *Incoming Request Duration*.
 
-![Incoming Request](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step12/IncomingDelay.png?raw=true "Incoming Request")
+![Incoming Request](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/IncomingDelay.png?raw=true "Incoming Request")
 
