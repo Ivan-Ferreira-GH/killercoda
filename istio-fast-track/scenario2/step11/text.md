@@ -29,21 +29,21 @@ Expande el panel *Client Workloads*. Notarás una duración incrementada en el g
 ![Incoming Request](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/IncomingDelay.png?raw=true "Incoming Request")
 
 Observa como este retardo se visualiza en Zipkin.
-En la pantalla principal de Zipkin, presiona sobre el signo **+** del panel superior, selecciona **ServiceName** y luego *web-frontend.default* de la lista desplegable.
-Luego agrega **minDuration** y establece **5s**.
-Presiona el botón **RUN QUERY**.
+En la pantalla principal de Zipkin, presiona sobre el signo *+* del panel superior, selecciona *ServiceName* y luego *web-frontend.default* de la lista desplegable.
+Luego agrega *minDuration* y establece *5s*.
+Presiona el botón *RUN QUERY*.
 
 ![Zipkin Query](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/ZipkinQuery.png?raw=true "Zipkin Query")
 
-Haz clic sobre alguna de las trazas y presiona el botón **SHOW** que se encuentra a la derecha para abrir la página de detalles.
+Haz clic sobre alguna de las trazas y presiona el botón *SHOW* que se encuentra a la derecha para abrir la página de detalles.
 En la página de detalles podrás notar que la petición duró 5 segundos en total.
 
 ![Zipkin Trace](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/IstioZipkinTrace.png?raw=true "Zipkin Trace")
 
-La traza se compone de cuatro *spans*. Selecciona el tercer *span* que representa la petición hecha desde el servicio **web-frontend** al servicio **customers**.
+La traza se compone de cuatro *spans*. Selecciona el tercer *span* que representa la petición hecha desde el servicio *web-frontend* al servicio *customers*.
 
-En el panel lateral derecho, notarás que en la etiqueta **response_flags** está establecida a **DI**. 
-DI significa **Delay Injection** e indica que la petición ha sido retardada.
+En el panel lateral derecho, notarás que en la etiqueta *response_flags* está establecida a *DI*. 
+DI significa *Delay Injection* e indica que la petición ha sido retardada.
 
 ![Zipkin DI](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step11/ZipkinDI.png?raw=true "Zipkin DI")
 
