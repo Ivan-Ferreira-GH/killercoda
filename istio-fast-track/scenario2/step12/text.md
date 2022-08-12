@@ -33,8 +33,8 @@ Expande el panel *General*. Notarás una caída de la tasa de éxito en *Client 
 ![Grafana Success Rate](https://github.com/Ivan-Ferreira-GH/killercoda/blob/main/istio-fast-track/scenario2/step12/GrafanaSucessRateDrop.png?raw=true "Grafana Success Rate")
 
 Observa como este retardo se visualiza en Zipkin.
-En la pantalla principal de Zipkin, presiona sobre el signo **+** del panel superior, selecciona **ServiceName** y luego *web-frontend.default* de la lista desplegable.
-Presiona el botón **RUN QUERY**.
+En la pantalla principal de Zipkin, presiona sobre el signo **+** del panel superior, selecciona *ServiceName* y luego *web-frontend.default* de la lista desplegable.
+Presiona el botón *RUN QUERY*.
 
 Las trazas con error se mostrarán en color rojo.
 
